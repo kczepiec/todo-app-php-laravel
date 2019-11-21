@@ -12,7 +12,7 @@ class TaskTableSeeder extends Seeder
     public function run()
     {
         DB::table('tasks')->insert([
-            'name' => 'Task testowy',
+            'name' => 'Custom task',
             'user_id' => 1
         ]);
     }

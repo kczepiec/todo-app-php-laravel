@@ -23,7 +23,7 @@ DB_PASSWORD=example_password<br>
 
 composer install
 
-4. Serve your appliaction
+4. Serve your application
 
 php artisan server
 

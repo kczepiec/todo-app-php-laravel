@@ -12,12 +12,12 @@ git clone https://github.com/kczepiec/todo-app.git
 
 2. Make copy of .env.example to .env and insert your database info
 
-DB_CONNECTION=mysql
-DB_HOST=example.com
-DB_PORT=3306
-DB_DATABASE=example_database
-DB_USERNAME=example_user
-DB_PASSWORD=example_password
+DB_CONNECTION=mysql<br>
+DB_HOST=example.com<br>
+DB_PORT=3306<br>
+DB_DATABASE=example_database<br>
+DB_USERNAME=example_user<br>
+DB_PASSWORD=example_password<br>
 
 3. Run Comoposer installation
 

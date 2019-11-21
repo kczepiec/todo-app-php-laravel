@@ -19,7 +19,7 @@ DB_DATABASE=example_database<br>
 DB_USERNAME=example_user<br>
 DB_PASSWORD=example_password<br>
 
-# Remember to use "php artisan key:generate" after copy
+!!! Remember to use "php artisan key:generate" after copy
 
 3. Run Comoposer installation
 

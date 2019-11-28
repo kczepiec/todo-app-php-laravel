@@ -2,9 +2,9 @@
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 </p>
 
-## Simple ToDo application
+# Simple ToDo application
 
-## Instalation
+### Installing
 
 1. Clone repo using Git
 ```
@@ -42,4 +42,6 @@ php artisan server
 php artisan migrate --seed
 ```
 
-enjoy!
+## Built With
+
+* [Laravel](https://laravel.com/docs/6.x) - The web application framework with expressive, elegant syntax

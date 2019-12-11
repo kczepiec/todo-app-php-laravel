@@ -7,12 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 class Task extends Model
 {
 
-    protected $fillable = [
-        'name'
-    ];
+    protected $table = 'tasks';
 
-    public function users()
-    {
-        $this->belongsTo('App\User');
-    }
+    protected $fillable = ['name'];
+
+    // public function users()
+    // {
+    //     $this->belongsTo('App\User');
+    // }
 }

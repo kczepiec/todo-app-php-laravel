@@ -27,8 +27,7 @@ class AppController extends Controller
     {
 
         if(Auth::check()) {
-            $authUserId = Auth::user()->id;
-            $tasks = Task::where('user_id', $authUserId)->orderBy('created_at', 'DESC')->get();
+            $tasks = Task::all();
 
             return view('app.index', compact('tasks'));
         }

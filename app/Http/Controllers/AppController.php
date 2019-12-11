@@ -26,9 +26,8 @@ class AppController extends Controller
     public function index()
     {
 
-        if(Auth::check()) {
+        if (Auth::check()) {
             $tasks = Task::all();
-
             return view('app.index', compact('tasks'));
         }
 

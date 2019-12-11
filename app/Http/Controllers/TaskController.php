@@ -25,6 +25,7 @@ class TaskController extends Controller
                 ->header('Content-Type', 'text/plain');
         }
     }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -53,7 +54,6 @@ class TaskController extends Controller
         $task->save();
 
         return redirect()->route('app.index')->with('message', 'Task created');
-
     }
 
     /**
@@ -98,11 +98,6 @@ class TaskController extends Controller
         return response()->json(Task::all());
     }
 
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function createTask(Request $request)
     {
         $task = new Task();
@@ -112,11 +107,6 @@ class TaskController extends Controller
         return response()->json(Task::all());
     }
 
-        /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function deleteTask($id)
     {
         $task = Task::where('id', $id)->firstOrFail();
